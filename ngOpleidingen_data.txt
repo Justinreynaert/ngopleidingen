@@ -1,0 +1,23 @@
+
+var instructeurs = [
+        {naam: 'Adinda', stad: 'Dendermonde',indienst:'2001-08-01', opl: [750401,750414]},
+        {naam: 'Siska', stad: 'Wevelgem', indienst:'2004-12-31', opl: [750401,750414, 750413]},
+        {naam: 'Paul', stad: 'Antwerpen',indienst:'2001-08-01', opl: [750414, 750413]},
+        {naam: 'Ilse', stad: 'Genk',indienst:'1999-05-26', opl: [750401,750414, 750415]},
+        {naam: 'Jan', stad: 'Oostende',indienst:'1996-02-12', opl: [750414, 750415]},
+        {naam: 'Romain', stad: 'Wevelgem', indienst:'2002-01-01' ,opl: [750422]},
+        {naam: 'Pierre', stad: 'Antwerpen',indienst:'1998-11-01', opl: [750414, 750412, 750413]},
+        {naam: 'Chris', stad: 'Antwerpen', indienst:'1992-04-11', opl: [750401]},
+        {naam: 'Frank', stad: 'Leuven', indienst:'2001-08-01', opl: [750413]},
+        {naam: 'Bjorn', stad:'Leuven', indienst:'2015-01-01',opl: [750401,750414]}
+    ];
+
+var opleidingen = [
+        {naam: 'oriëntering', code: 750401, categorie: "oriëntering"},
+        {naam: 'PHP', code: 750414, categorie: "ontwikkeling"},
+        {naam: 'Front End', code: 750415, categorie: "ontwikkeling"},
+        {naam: 'C# .Net', code: 750412, categorie: "ontwikkeling"},
+        {naam: 'Java', code: 750413, categorie: "ontwikkeling"},
+        {naam: 'systeembeheerder', code: 750422, categorie: "infrastructuur"},
+        {naam: 'IT medewerker', code: 750601, categorie: "infrastructuur"}
+    ];
